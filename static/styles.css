@@ -1,0 +1,63 @@
+/* Estilo general para el cuerpo y el documento HTML */
+body, html {
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina relleno */
+    height: 100%; /* Altura completa del documento */
+    width: 100%; /* Ancho completo del documento */
+    overflow: hidden; /* Oculta el desbordamiento del contenido */
+}
+
+/* Estilo para el contenedor del mapa */
+#map {
+    height: 100vh; /* El mapa ocupa toda la altura de la ventana */
+    width: 100%; /* El mapa ocupa todo el ancho de la ventana */
+}
+
+/* Estilo para formularios de login y registro */
+.login-form, .registro-form {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 50px auto; /* Centra el formulario vertical y horizontalmente */
+    background: white; /* Fondo blanco */
+    padding: 20px; /* Relleno interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un efecto de elevación */
+}
+
+/* Títulos dentro de los formularios */
+.login-form h2, .registro-form h2 {
+    text-align: center; /* Centra el texto */
+    color: #0056b3; /* Color azul (mismo que los botones primarios) */
+}
+
+/* Estilo para los grupos de formularios */
+.form-group {
+    margin-bottom: 1rem; /* Espaciado inferior entre grupos */
+}
+
+/* Estilo para botones primarios */
+.btn-primary {
+    background-color: #007bff; /* Color azul estándar */
+    border: none; /* Sin bordes */
+}
+
+/* Efecto hover para botones primarios */
+.btn-primary:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el cursor */
+}
+
+/* Estilo para botones secundarios */
+.btn-secondary {
+    background-color: #6c757d; /* Color gris estándar */
+    border: none; /* Sin bordes */
+    color: white; /* Texto blanco */
+}
+
+/* Efecto hover para botones secundarios */
+.btn-secondary:hover {
+    background-color: #5a6268; /* Gris más oscuro al pasar el cursor */
+}
+
+/* Estilo para mensajes de alerta */
+.alert {
+    margin-bottom: 1rem; /* Espaciado inferior para separar alertas de otros elementos */
+}
